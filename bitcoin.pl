@@ -4,7 +4,7 @@ use strict;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 
-$VERSION = "1.0.1";
+$VERSION = "1.0.2";
 
 %IRSSI = (
   authors     => 'David Parrish',
@@ -16,7 +16,7 @@ $VERSION = "1.0.1";
   changed     => 'Fri Oct 26 11:23:00 AEST 2012',
 );
 
-my $bitcoind = '/usr/bin/bitcoind';
+my $bitcoind = '/usr/bin/bitcoin-cli';
 
 # This setting controls whether this plugin (and irssi) is allowed to send bitcoins.
 # The default is to disallow the bc send command. Chanage this to 1 to allow it.
